@@ -1,5 +1,12 @@
 /*Main styles for all of the websites that branch off of our main website and the style for the main website*/
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 body {
 padding-top: 5%;
 padding-right: 5%;
