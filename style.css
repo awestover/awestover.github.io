@@ -1,0 +1,40 @@
+/*Main styles for all of the websites that branch off of our main website and the style for the main website*/
+
+body {
+padding-top: 5%;
+padding-right: 5%;
+padding-bottom: 5%;
+padding-left: 5%;
+
+background-color: black;
+color: white;
+font-size: 195%;
+font-family:"Courier New";
+}
+
+/* All links*/
+a {
+color: white;
+font-size: 200%;
+}
+/*Button Links*/
+a.button {
+text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+background-color: black;
+}
+
+/* mouse over link */
+a:hover {
+background-color: grey;
+}
+
+
+div.links{
+position: fixed;
+top: 20%;
+left: 2%;
+}
