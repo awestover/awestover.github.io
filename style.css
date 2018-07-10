@@ -1,4 +1,3 @@
-/*Main styles for all of the websites that branch off of our main website and the style for the main website*/
 
 .center {
     display: block;
@@ -8,25 +7,21 @@
 }
 
 body {
-padding-top: 5%;
-padding-right: 5%;
-padding-bottom: 5%;
-padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
 
-background-color: black;
-color: white;
-font-size: 195%;
-font-family:"Courier New";
+    background-color: black;
+    color: white;
+    font-size: 195%;
+    font-family:"Courier New";
 }
 
 /* All links*/
 a {
 color: white;
 font-size: 200%;
-}
-/*Button Links*/
-a.button {
-text-decoration: none;
 }
 
 /* unvisited link */
