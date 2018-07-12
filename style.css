@@ -6,30 +6,3 @@
     width: 50%;
 }
 
-body {
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-
-    background-color: black;
-    color: white;
-    font-size: 195%;
-    font-family:"Courier New";
-}
-
-/* All links*/
-a {
-color: white;
-font-size: 200%;
-}
-
-/* unvisited link */
-a:link {
-background-color: black;
-}
-
-/* mouse over link */
-a:hover {
-background-color: grey;
-}
