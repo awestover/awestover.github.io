@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link id="header-import" rel="import" href="header.html">
+  <title>Alek Westover</title>
+</head>
+
+<body>
+  <script>
+    var doc = $("#header-import")[0].import;
+    var text = doc.querySelector('.main-navbar');
+    $("body")[0].appendChild(text.cloneNode(true));
+    $("#math-tab").addClass("active");
+  </script>
+
+  <div class="container">
+    <h2 id="math">Math</h2>
+    <p>I enjoy math.</p>
+    <h3 id="i-am-on-a-couple-of-math-teams-including">I am on a couple of math teams, including</h3>
+    <ul>
+    <li>Belmont High School Math Team</li>
+    <li>ARML (Eastern MA) 9th and 10th grade</li>
+    </ul>
+    <h3 id="i-also-have-participated-in-math-competitions-including">I also have participated in math competitions including:</h3>
+    <ul>
+    <li>GBML</li>
+    <li>MAML (I placed top 200 in MA in 9th and 10th grade)</li>
+    <li>AMC10/12</li>
+    <li>HMMT</li>
+    <li>ARML</li>
+    </ul>
+    <h3 id="i-also-have-done-problems-from-but-not-actually-participated-in-some-of-these-competitions">I also have done problems from (but not actually participated in) some of these competitions:</h3>
+    <ul>
+    <li>AIME</li>
+    <li>SMT SUMO (Stanford)</li>
+    <li>MIT Integration Bee</li>
+    </ul>
+    <h3 id="some-of-my-favorite-resources-are">Some of my favorite resources are:</h3>
+    <ul>
+    <li>Khan Academy (for learning the basics this is incredibly helpfull, I learned Algebra2 and Precalculus on here)</li>
+    <li>aops</li>
+    <li>past competitions</li>
+    <li>textbooks</li>
+    </ul>
+    <h3 id="misc">Misc</h3>
+    <ul>
+    <li>I was able to skip 3 grades of math and take BC Calculus as a freshman.</li>
+    <li>I took Linear Algebra and Multivariable Calculus in 10th grade at the Harvard Extension School (21a/b)</li>
+    </ul>
+  </div>
+</body>
+
+</html>
+

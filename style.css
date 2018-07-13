@@ -1,4 +1,9 @@
 
+img#alekpic
+{
+  border-radius: 30%;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -6,3 +11,7 @@
     width: 50%;
 }
 
+.active, li:hover{
+  background-color: #c6cad1;
+  color: white;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link id="header-import" rel="import" href="header.html">
+  <title>Alek Westover</title>
+</head>
+
+<body>
+
+  <script>
+    var doc = $("#header-import")[0].import;
+    var text = doc.querySelector('.main-navbar');
+    $("body")[0].appendChild(text.cloneNode(true));
+    $("#programming-tab").addClass("active");
+  </script>
+
+  <div class="container">
+    <h1>Here are some projects I have worked on</h1>
+
+    <div>
+      <h3>theland</h3>
+      <p>this is a fun multiplayer game.</p>
+      <a class="button" href="https://theland.herokuapp.com">theland</a><br>
+    </div>
+    <a class="button" href="../jumper">Jumper</a><br>
+    <a class="button" href="../computer_club">Computer Club</a><br>
+    <a class="button" href="../PhysicsSimulations">Physics Simulations</a><br>
+    <a class="button" href="../textFileEditor">Text file editor</a><br>
+    <a class="button" href="../Asteroids">Asteroids</a><br>
+    <a class="button" href="../snalek">snalek</a><br>
+
+    <h1 id="computer-programming-and-computer-science">computer programming and computer science</h1>
+    <h2 id="i-have-had-fun-making-various-computer-games-mostly-in-js">I have had fun making various computer games mostly in js</h2>
+    <ul>
+    <li>Travelling Salesman</li>
+    <li>theland</li>
+    <li>computer jumper</li>
+    <li>snalek</li>
+    <li>mastermind</li>
+    <li>chopsticks</li>
+    </ul>
+  </div>
+</body>
+
+</html>
+
