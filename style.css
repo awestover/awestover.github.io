@@ -1,6 +1,10 @@
+/* Different styles for all sites */
 
-img#alekpic
-{
+.container {
+  padding: 2%;
+}
+
+img#alekpic {
   border-radius: 30%;
 }
 
