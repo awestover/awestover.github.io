@@ -8,17 +8,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link id="header-import" rel="import" href="header.html">
   <title>Alek Westover</title>
 </head>
 
 <body>
-
+  <div id="header"></div>
   <script>
-    var doc = $("#header-import")[0].import;
-    var text = doc.querySelector('.main-navbar');
-    $("body")[0].appendChild(text.cloneNode(true));
-    $("#programming-tab").addClass("active");
+    $("#header").load('header.html', function() {
+      $("#programming-tab").addClass("active");
+    });
   </script>
 
   <div class="container">
