@@ -15,7 +15,7 @@ img#alekpic {
     width: 50%;
 }
 
-.active, li:hover{
+.active{
   background-color: #c6cad1;
   color: white;
 }

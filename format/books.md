@@ -8,15 +8,17 @@
   * Wheel of Time
   * Last Unicorn
   * The Jungle
-  * Rick Riordan originals
+  * Les Miserables
   * Magyk
+  * Rithmatist
 
 # Good:
   * Steelheart
-  * Rick Riordan other
+  * Rick Riordan 
   * Brave new world
   * animal farm
   * 1984
+  * Alcatraz
 
 # Math / CS:
   * aops
