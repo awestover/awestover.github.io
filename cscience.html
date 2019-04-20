@@ -30,42 +30,42 @@
     <ul>
     <li>toy test graphs</li>
     </ul>
-    <div id='primes'>
-    	<p>Low key you should really just go to github and download this if you want to read it...</p>
-      <button style='z-index:-1' onclick='changeMath(1)'>NEXT math</button>
-      <button onclick='changeMath(-1)'>PREV math</button>
-	    <img id='mathPrimes' style="width: 100%" src='#'>
-      <button onclick='changeCs(1)'>NEXT CS</button>
-      <button onclick='changeCs(-1)'>PREV CS</button>
-      <img id='csPrimes' style="width: 100%" src='#'>
-    </div>
-  </div>
-  <script>
-    let mathI = -1; let csI = -1;
-    function maybePad(n) {
-      if (n < 10) {
-        return "0"+n;
-      }
-      else {
-        return ""+n;
-      }
-    }
-    changeMath(1);
-    changeCs(1);
+  <!--   <div id='primes'> -->
+  <!--     <p>Low key you should really just go to github and download this if you want to read it...</p> -->
+  <!--     <button style='z-index:-1' onclick='changeMath(1)'>NEXT math</button> -->
+  <!--     <button onclick='changeMath(-1)'>PREV math</button> -->
+	<!--     <img id='mathPrimes' style="width: 100%" src='#'> -->
+  <!--     <button onclick='changeCs(1)'>NEXT CS</button> -->
+  <!--     <button onclick='changeCs(-1)'>PREV CS</button> -->
+  <!--     <img id='csPrimes' style="width: 100%" src='#'> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <!-- <script> -->
+  <!--   let mathI = -1; let csI = -1; -->
+  <!--   function maybePad(n) { -->
+  <!--     if (n < 10) { -->
+  <!--       return "0"+n; -->
+  <!--     } -->
+  <!--     else { -->
+  <!--       return ""+n; -->
+  <!--     } -->
+  <!--   } -->
+  <!--   changeMath(1); -->
+  <!--   changeCs(1); -->
 
-    function mod(n, m) {
-      let remain = n % m;
-      return Math.floor(remain >= 0 ? remain : remain + m);
-    };
+  <!--   function mod(n, m) { -->
+  <!--     let remain = n % m; -->
+  <!--     return Math.floor(remain >= 0 ? remain : remain + m); -->
+  <!--   }; -->
 
-    function changeMath(way) {
-      mathI = mod(mathI + way, 27);
-      $('#mathPrimes').attr('src', 'PRIMESOldApplication/PRIMES18/PRIMES18-'+maybePad(mathI+1)+'.png');
-    }
-    function changeCs(way) {
-      csI = mod(csI + way, 51);
-      $('#csPrimes').attr('src', 'PRIMESOldApplication/ComputerScienceProblems/ComputerScienceProblems-'+maybePad(csI+1)+'.png');
-    }
+  <!--   function changeMath(way) { -->
+  <!--     mathI = mod(mathI + way, 27); -->
+  <!--     $('#mathPrimes').attr('src', 'PRIMESOldApplication/PRIMES18/PRIMES18-'+maybePad(mathI+1)+'.png'); -->
+  <!--   } -->
+  <!--   function changeCs(way) { -->
+  <!--     csI = mod(csI + way, 51); -->
+  <!--     $('#csPrimes').attr('src', 'PRIMESOldApplication/ComputerScienceProblems/ComputerScienceProblems-'+maybePad(csI+1)+'.png'); -->
+  <!--   } -->
 
   </script>
 </body>
