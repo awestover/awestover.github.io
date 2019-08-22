@@ -1,7 +1,8 @@
 /* Different styles for all sites */
 
 .container {
-  padding: 4%;
+  padding: 2%;
+	margin: 2%;
 }
 
 img#alekpic {

@@ -20,7 +20,8 @@
   </script>
   
   <div class="container">
-    <h1>Reading is pretty good too. This is a random list of some books I thought were good, NOT a complete list by any means</h1>
+		<h1>Reading</h1>
+    <p>I love reading. Mostly Science Fiction, Fantasy, and Math / Computer Science. Here are some of my favorite books:</p>
     
     <h1>Really Good:</h1>
       <li>Narnia</li>
@@ -49,7 +50,42 @@
       <li>Div grad curl and all that</li>
       <li>Algos in C++</li>
 
-  </div>
+		<h4>Below is the result of a fun little web scrapping project that I did, to find a lot of good Brandon Sanderson quotes. In general my favorite quotes come from Mistborn or Way of Kings, but they are all good, and the occasional wheel of time quote is awesome.</h4>
+
+		<div class="container">
+			<div class="card">
+				
+				<button onclick="newQuote();">NEXT QUOTE</button>
+
+				<br><br><br>
+				<h3 id="quote" onclick="newQuote();">QUOTE</h3>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let quoteData = [];
+
+		function newQuote() {
+			let idx = Math.floor(Math.random()*quoteData.length);
+			if(quoteData.length > 0) {
+				$("#quote").text(quoteData[idx]);
+			}
+		}
+
+		$.getJSON("sandersonQuotes.json", function(data){
+			quoteData = data;
+			newQuote();
+		});
+		
+
+		$(document).on("keypress", function (e) {
+			//if (e.which >= 97 && e.which <=127);
+			newQuote();
+		});
+
+	</script>
   
 </body>
 

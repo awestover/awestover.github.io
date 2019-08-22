@@ -1,11 +1,9 @@
 # awestover.github.io
-This is a record of some of the things that I have done and enjoy doing.
+This is my website: [https://awestover.github.io](https://awestover.github.io).
 
-Here is the actual site
-[https://awestover.github.io](https://awestover.github.io)
+It summarizes some of the things that I am interested in.
 
-# Interests dicussed: 
-* Math
-* computer programming
-* computer science
-* Reading 
+# Main Interests: 
+  * Math
+  * Comptuer Programming
+  * Reading 
