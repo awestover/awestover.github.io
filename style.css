@@ -1,22 +1,68 @@
-/* Different styles for all sites */
-
-.container {
-  padding: 2%;
-	margin: 2%;
+img#alekpic {
+  border-radius: 10%;
 }
 
-img#alekpic {
-  border-radius: 30%;
+.nav-link.active {
+	color: red !important;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 70vh;
 }
 
-.active{
-  background-color: #c6cad1;
-  color: white;
+#mathCarousel .carousel-inner {
+	height: 90vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carouselImg {
+	display: block;
+	height: 90vh;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.delineate {
+	height: 50px;
+	background-image: url(data/dog1.png);
+	background-repeat: repeat-x;
+	background-position: center;
+	background-color: transparent;
+	border: none;
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+header {
+	padding-top: 75px;
+}
+
+footer div {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+div#quote-box {
+	height: 10vh;
+	overflow: scroll;
+}
+
+#quote-box-container {
+	padding-bottom: 2%;
+}
+
+.invertedColors {
+	background-color: #808080;
+	color: #FFFFFF;
+}
+
+.info-card {
+	
 }
