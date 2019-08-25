@@ -2,6 +2,10 @@ img#alekpic {
   border-radius: 10%;
 }
 
+#home {
+	background-color: #4bb49b;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -63,13 +67,26 @@ div#quote-box {
 	color: #FFFFFF;
 }
 
-.info-card {
-	
-}
-
 #mainNav {
 	opacity: 0.7; 
 	top: 0;
 	position: fixed;
 	width: 100vw; 
 }
+
+.infoCard {
+	display: in-line;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	width: 100%;
+	overflow: scroll;
+}
+.infoCard img {
+	width: 35%;
+	float: left;
+}
+.infoCard .infoCardInfo {
+	width: 60%;
+	float: right;
+}
+
