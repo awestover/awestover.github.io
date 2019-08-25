@@ -2,10 +2,6 @@ img#alekpic {
   border-radius: 10%;
 }
 
-.nav-link.active {
-	color: red !important;
-}
-
 .center {
     display: block;
     margin-left: auto;
@@ -29,7 +25,7 @@ img#alekpic {
 
 .delineate {
 	height: 50px;
-	background-image: url(data/dog1.png);
+	background-image: url(../data/dog1.png);
 	background-repeat: repeat-x;
 	background-position: center;
 	background-color: transparent;
@@ -41,7 +37,11 @@ img#alekpic {
 }
 
 header {
-	padding-top: 75px;
+  padding: 70px 0 70px;
+}
+
+section {
+  padding: 50px 0;
 }
 
 footer div {
