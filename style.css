@@ -21,10 +21,10 @@ img#alekpic {
 
 .carouselImg {
 	display: block;
-	height: 90vh;
-	width: auto;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .delineate {
@@ -65,4 +65,11 @@ div#quote-box {
 
 .info-card {
 	
+}
+
+#mainNav {
+	opacity: 0.7; 
+	top: 0;
+	position: fixed;
+	width: 100vw; 
 }
