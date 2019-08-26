@@ -17,8 +17,8 @@ class Mover {
 		let currentLoc = this.img.position();
 		let dPos = [Math.cos(this.th)*this.speed, Math.sin(this.th)*this.speed];
 		let newLoc = [dPos[0]+currentLoc.left, dPos[1]+currentLoc.top];
-		newLoc[0] = realMod(newLoc[0], $("body")[0].getBoundingClientRect().width);
-		newLoc[1] = realMod(newLoc[1], $("body")[0].getBoundingClientRect().height);
+		newLoc[0] = realMod(newLoc[0], $("body").width());
+		newLoc[1] = realMod(newLoc[1], $("body").height());
 		this.img.css({"left":newLoc[0], "top":newLoc[1]})
 		if(dPos[0] < 0){
 			this.img.css("transform", "scale(-1,1)");
@@ -38,7 +38,6 @@ class Mover {
 		let dx = other.img.position().left - this.img.position().left;
 		let dy = other.img.position().top - this.img.position().top;
 		if (true || dx*dx + dy*dy < this.sightRadius*this.sightRadius) {
-			console.log(dx + " " + dy + " " + this.th);
 			this.th = Math.atan2(dy, dx);
 			this.seekOrFlee = true;
 		}
@@ -46,12 +45,13 @@ class Mover {
 			this.seekOrFlee = false;
 		}
 	}
-	flee(other) {
+	die(other){
 		let dx = other.img.position().left - this.img.position().left;
 		let dy = other.img.position().top - this.img.position().top;
-		if (dx*dx + dy*dy < this.sightRadius*this.sightRadius) {
-			this.th = Math.PI*2 - Math.atan2(dx, dy);
+		if(dx*dx+dy*dy < this.img.width()*this.img.width()){
+			this.img.css({"left":$("body").width()*Math.random(), "top":$("body").height()*Math.random()});
 		}
+
 	}
 	animate(){
 		this.move();
@@ -62,7 +62,9 @@ class Mover {
 
 let dog = new Mover("dog", 2.0);
 let dino = new Mover("dino", 2.5);
-// dog.animate();
+dog.animate();
 dino.animate();
 setInterval(function(){dino.seek(dog);}, 100); 
+setInterval(function(){dog.die(dino);}, 100); 
+
 
