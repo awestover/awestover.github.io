@@ -23,7 +23,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="https://github.com/AWestover">Alek Westover GitHub</a>
+      <a class="navbar-brand js-scroll-trigger" href="https://github.com/awestover">Alek Westover GitHub</a>
       <a class="navbar-brand js-scroll-trigger" href="https://awestover.github.io/skyspace/">Skyspace</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -107,13 +107,25 @@
 		</div>
 		<div class="container">
 
-			<h5>Favorite Theorems:</h5>
+			<h5>Favorite Sets:</h5>
 			<ul>
-				<li>The convolution theorem</li>
-				<li>The Bolzano-Weierstrass theorem</li>
-				<li>The Fundamental Theorem of Calculus</li>
-				<li>The Mean Value Theorem</li>
+        <li>R mod Q</li>
+        <li>The Vitali set</li>
+        <li>Z mod nZ </li>
+        <li>R^n</li>
+        <li>C</li>
+        <li>Z[x]</li>
 			</ul>
+			<h5>Favorite Theorems:</h5>
+      <ul>
+        <li>The Projection Theorem</li>
+        <li>The Hahn-Banach Theorem (especially geometric version)</li>
+				<li>The Convolution Theorem</li>
+				<li>The Bolzano-Weierstrass Theorem</li>
+				<li>Stoke's Theorem</li>
+				<li>The Mean Value Theorem</li>
+        <li>Hoeffding's Inequality</li>
+      </ul>
 
 			<h5>Math Programs:</h5>
 			<ul>
@@ -121,9 +133,9 @@
 			<li>MIT PRIMES</li>
 			<li>Belmont High School Math Team (4 years, captain as a senior)</li>
 			<li>ARML (Eastern MA) Math Team 9th and 10th grade</li>
-			<li>Competitions: AIME, HMMT, ARML, GBML, MAML, AMC10/12</li>
+			<li>Competitions: AIME, HMMT, ARML, GBML, NEAML, MAML(I/II), AMC10/12</li>
 			</ul>
-			<h5 id="misc">Classes</h5>
+			<h5 id="misc">Math Classes</h5>
 			<ul>
 			<li>I "took" Algebra2, Precalculus, Calculus, and Physics on Khan Academy in 8th grade</li>
 			<li>I took AP Calculus and AP Physics in 9th grade</li>
@@ -141,7 +153,7 @@
 			<ul>
         <li>Private tutor for math / science</li>
         <li>Intern as a software engineer at a healthcare AI startup</li>
-        <li>TA for Math 23a/b at Harvard</li>
+        <li>TA for Math-E 23a/c at Harvard</li>
 			</ul>
 		</div>
 
@@ -157,12 +169,72 @@
 
 			<div class="infoCard">
 				<div class="infoCardInfo">
-					<h4>PRIMES CS Research</h4>
+					<h4>Parallel-Partition Research Project</h4>
           <p>I was accepted into <a href="https://math.mit.edu/research/highschool/primes/index.php">MIT PRIMES</a>, a program that gives mentored research opportunities to talented high school students. I worked on developing a cache efficient algorithm for parallel partition (and thus for parallel quicksort).</p>
           <a class="button" href="https://github.com/awestover/Parallel-Partition">Parallel-Partition on GitHub</a><br>
 				<a class="button" href="https://parallelPartition.surge.sh">Parallel-Partition Explanatory page</a>
 				</div>
 				<img src="data/programmingData/parallelPartition.png">
+			</div>
+			<div class="infoCard">
+				<div class="infoCardInfo">
+					<h4>Cup Game Research Project</h4>
+          <p>In my second year participating in PRIMES I did more theoretical computer science research on the cup game. The cup game is a classic problem in computer science that models work scheduling. In the cup game on n cups, a filler and an emptier take turns adding and removing water from cups (i.e. new tasks come in and the scheduler must allocate processors to handle the incoming work). On each round the filler will distribute some new amount of water among the cups, and the emptier will remove some amount of water from some of the cups. The filler can distribute the water however it wants (as long as it places at most $1$ water in each cup), but the emptier has an added "discretization constraint": it can only remove water from some fixed number of cups. The problem is to analyze how well each player can do, that is, how much water can the filler force to be in the fullest cup, and what is the upper bound on this fill that an appropriate emptying strategy can guarantee? We study several variants of the problem and answer some open questions.</p>
+          <a class="button" href="https://github.com/awestover/cupgame/">Cup Games GitHub</a><br>
+				</div>
+				<img src="data/programmingData/cupgame.png">
+			</div>
+
+      <h3>Machine Learning</h3>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
+					<h4>AI</h4>
+          <p>Some programs that play games, like chopsticks, and tick tack toe, and maze solving. Featuring: reinforcement learning, simulated anealing, genetic algorithms, and more!</p>
+          <a href="https://github.com/awestover/AI">AI</a>
+				</div>
+        <img src="data/programmingData/chopsticks.png">
+			</div>
+
+      <h3>webdev / backend</h3>
+			<div class="infoCard">
+				<div class="infoCardInfo">
+					<h4>chatTest</h4>
+          <p>This is probably my first use of socketio. It is hosted on Heroku with a nodejs backend. You specify a name, it gives a nice color to you based on your name, and then you can do instant messaging with anyone else on the site!</p>
+				</div>
+        <img src="data/programmingData/chatTest.png">
+			</div>
+
+			<h3>Math / CS Teaching:</h3>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
+					<h4>Skyspace</h4>
+          <p>I started this blog because I have learned a lot of cool things
+          and want to share them. I love to do this in person, but I think that
+          there is also something valuable about making a more structured
+          presentation of ideas. This website will hopefully:
+        <ul> 
+          <li> Help me better understand some cool ideas </li>
+          <li> Help me better remember some cool ideas </li>
+          <li> Help me better explain some cool ideas </li>
+          <li> Teach some people some cool ideas </li>
+        </ul>
+        I plan to mainly focus on math, but I will also do some more programming
+        related things.</p>
+          <a class="button" href="https://awestover.github.io/skyspace/">Skyspace</a><br>
+				</div>
+				<img src="data/programmingData/projectionTheorem.png">
+			</div>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
+          <h4>CoronaCodingClub</h4>
+          <p>Purpose: Teach some python, have some fun. Socialize during the quarantine. I organized this club to help teach some of my peers how to code while we had a month off of school because of the coronavirus. The psets are pretty good (imo) as a resrouce for learning to code. There are answer keys if you get stuck too.</p>
+          <a class="button" href="https://github.com/awestover/coronacoding/">CoronaCodingClub on GitHub</a><br>
+          <a class="button" href="https://awestover.github.io/coronacoding/">CoronaCodingClub</a><br>
+				</div>
+				<img src="data/programmingData/coronaCoding.png">
 			</div>
 
 			<h3>Games:</h3>
@@ -170,7 +242,14 @@
 			<div class="infoCard">
 				<div class="infoCardInfo">
 					<h4>theland</h4>
-					<p>theland is probably the best game ever made. You control a herd of animals as they travel around the screen. These animals are subject to needs such as hunger, and old age. Using these animals you may seek out enemies to attack, or other users to attack. Play for glory in defeating other players, and play to reach the top of the leaderboard (if you have a registered acount). Enjoy the stunning landscape which is composed of colorfull (quad)trees and natural resources (e.g. pizza).</p>
+          <p>theland is probably the best game ever made. You control a herd of
+          animals as they travel around the screen. These animals are subject
+          to needs such as hunger, and old age. Using these animals you may
+          seek out enemies to attack, or other users to attack. Play for glory
+          in defeating other players, and play to reach the top of the
+          leaderboard (if you have a registered acount). Enjoy the stunning
+          landscape which is composed of colorfull (quad)trees and natural
+          resources (e.g. pizza).</p>
 					<a class="button" href="https://theland.herokuapp.com">theland</a>
 				</div>
 				<img src="data/programmingData/theland.png">
@@ -178,8 +257,50 @@
 
 			<div class="infoCard">
 				<div class="infoCardInfo">
+          <h4>theknightdawns</h4>
+          <p>This game is a really huge RPG that I made in C++ (yeah!) with SFML. It's very modular, so you can add your own plots and characters and worlds by just editing a few jsons! </p>
+				</div>
+        <img src="data/programmingData/theknightdawns.png"/>
+			</div>
+
+			<div class="infoCard">
+        <div class="infoCardInfo">
+          <h4>slipscape</h4>
+          <p>I think that making a 3D game would be really awesome. This is an
+          attempt at using WEBGL (with the three.js wrapper) to make a cool 3d
+          game. There is a block based world that you can move around in, and
+          interact with mobs in. </p>
+          <a href="http://sumo.surge.sh/">Slipscape</a>
+				</div>
+        <img src="data/programmingData/slipscape.png"/>
+			</div>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
+          <h4>enchantedForest</h4>
+          <p>This game is the start of an amazing RPG. Me and <a
+            href="kevinhsu.net">Kevin</a> thought about this game a lot, and
+          started implementing it in js. We have big plans for the protagonist
+          Bob, and are planning on writing a large plot for the game! The in
+          game weather is one of the coolest features of this game, right next
+          to the seeking mobs.</p>
+          <a href="enchantedForest.surge.sh">enchantedForest</a>
+				</div>
+      <img src="data/programmingData/enchantedForest.png"/>
+			</div>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
 					<h4>face-color</h4>
-					<p>this is an app that can recolor a picture.</p>
+          <p>This app (with python backend hosted on Heroku) reads data from
+          your webcam (be sure to grant it access!). You can take a picture
+          with it, and it will use k-means to quantize your picture into a few
+          regions of similar color. Then it will make these regions random
+          colors. Note: this is how I generated the picture of myself at the
+          top of this website! (Although I ran a much higher res picture
+          through the algorithm, on the website I don't want to send a lot of
+          data, because I have Heroku free tier, so if you want a similar
+          picture, download the source code from github)</p>
 					<a class="button" href="https://face-color.herokuapp.com">face-color</a>
 				</div>
 				<img src="data/programmingData/face-color.png">
@@ -192,6 +313,23 @@
 					<a class="button" href="../coolGames">coolGames</a>
 				</div>
 				<img src="data/programmingData/coolGames.png">
+			</div>
+
+			<div class="infoCard">
+				<div class="infoCardInfo">
+					<h4>littleGames</h4>
+					<p>These games are mostly hackathon projects. They are in various stages of completion. The projects here include:</p>
+          <ul>
+            <li>warcross</li>
+            <li>revenants</li>
+            <li>snalek</li>
+            <li>thesea</li>
+            <li>thewild</li>
+            <li>theC</li>
+          </ul>
+					<a class="button" href="https://awestover.github.io/littleGames/">littleGames</a>
+				</div>
+				<img src="data/programmingData/snalek.png">
 			</div>
 
 			<div class="infoCard">
@@ -290,15 +428,26 @@
 						Algorithms in C++
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-sm">
+						Luenberger's Optimization by Vector Space Methods
+					</div>
+					<div class="col-sm">
+            Axler's Linear Algebra Done Right
+					</div>
+				</div>
 			</div>
 
-			<h4>The astute reader may have noted that I'm a bit of a Sanderson fan (i.e. I have read every single one of his books at least once, and I <b>liked</b> all of them). Below is the result of a fun little web scrapping project that I did, to find a lot of good Sanderson quotes.</h4>
+      <br>
+      <h6>Brandon Sanderson is my favorite author. I made a webscrapper find
+      Sanderson quotes that people liked, and compiled them. You can look
+      through them here:</h6>
 
 			<div id="quote-box-container" class="container">
-				<button class="btn invertedColors" onclick="newQuote();">NEXT QUOTE</button> <br>
 				<div id="quote-box" class="card">
 					<h5 id="quote" onclick="newQuote();">QUOTE</h5>
 				</div>
+				<button class="btn invertedColors" onclick="newQuote();">NEXT QUOTE</button> <br>
 			</div>
 
 			<script>
