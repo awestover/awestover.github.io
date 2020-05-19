@@ -54,8 +54,8 @@ footer div {
 }
 
 div#quote-box {
-	height: 10vh;
-	overflow: scroll;
+  height: 10em;
+  overflow: scroll;
 }
 
 #quote-box-container {
