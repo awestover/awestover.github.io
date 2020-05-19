@@ -53,15 +53,18 @@
   <header id="home" class="text-white">
     <div class="container text-center">
       <p class="lead">Who am I? Who am I? I'm ...</p>
-			<img onclick="toggleImg()" id="alekpic" class="center" src="data/homeData/alek.png" alt="alek"></img>
+			<img onclick="toggleImg()" id="alekpic" class="center" src="data/homeData/alekNormal.png" alt="alek"></img>
       <script charset="utf-8">
-        let which_face = "alek.png"
+        let which_face = "alekNormal.png"
         function toggleImg(){
           if(which_face == "alek.png"){
             which_face = "grey_alek.png";
           }
-          else{
+          else if(which_face == "alekNormal.png"){
             which_face = "alek.png";
+          }
+          else if(which_face == "grey_alek.png"){
+            which_face = "alekNormal.png";
           }
           $("#alekpic").attr("src", "data/homeData/"+which_face);
           
