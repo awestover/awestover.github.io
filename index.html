@@ -51,19 +51,22 @@
 
   <header id="home" class="text-white">
     <div class="container text-center">
-      <p class="lead">Who am I? Who am I? I'm ...</p>
-			<img onclick="toggleImg()" id="alekpic" class="center" src="data/homeData/alek.png" alt="alek"></img>
+      <p class="lead">Who am I? I'm ...</p>
+			<img onclick="toggleImg()" id="alekpic" class="center" src="data/homeData/alek-mit.jpg" alt="alek"></img>
       <script charset="utf-8">
-        let which_face = "alek.png"
+        let which_face = "alek-mit.jpg"
         function toggleImg(){
-          if(which_face == "alek.png"){
-            which_face = "grey_alek.png";
-          }
-          else if(which_face == "alekNormal.png"){
+          if(which_face == "alek-mit.jpg"){
             which_face = "alek.png";
+          }
+          else if(which_face == "alek.png"){
+            which_face = "grey_alek.png";
           }
           else if(which_face == "grey_alek.png"){
             which_face = "alekNormal.png";
+          }
+          else if(which_face == "alekNormal.png"){
+            which_face = "alek-mit.jpg";
           }
           $("#alekpic").attr("src", "data/homeData/"+which_face);
           
@@ -100,9 +103,16 @@
 			<h5>Publications</h5>
 			<ul>
         <li>
-          <a href="https://arxiv.org/abs/2004.12532">William Kuszmaul and Alek Westover. "In-Place Parallel-Partition Algorithms using Exclusive-Read-and-Write Memory"</a> 
+          <a href="https://doi.org/10.4230/LIPIcs.ITCS.2021.16
+">Kuszmaul, William ; Westover, Alek The Variable-Processor Cup Game</a>
           <br>
-          <p> My Parallel-Partition paper will be published in the SPAA 2020 journal (as a brief announcement). </p>
+          <p>My research on the Variable-Processor Cup Game was published in ITCS 2021</p>
+        </li>
+        <li>
+          <a href="https://arxiv.org/abs/2004.12532">William Kuszmaul and Alek Westover. "In-Place Parallel-Partition Algorithms using Exclusive-Read-and-Write Memory"</a> 
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3350755.3400234" >Official version</a>
+          <br>
+          <p> My Parallel-Partition paper was published in the SPAA 2020 journal as a brief announcement. </p>
           <br>
           <a href="https://www.youtube.com/watch?v=shbLOXXbQIw">SPAA Talk Video</a>
           <br>
