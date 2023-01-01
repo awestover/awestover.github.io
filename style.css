@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 img#alekpic {
   border-radius: 10%;
 }
