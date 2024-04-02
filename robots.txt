@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://awestover.github.io/sitemap.txt
