@@ -1,7 +1,7 @@
 import markdown
 
 # Read the markdown file
-with open("main.md", 'r', encoding='utf-8') as f:
+with open("README.md", 'r', encoding='utf-8') as f:
     md_content = f.read()
 
 # Convert markdown to HTML
