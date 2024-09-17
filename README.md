@@ -12,7 +12,7 @@ Email: alekw at mit dot edu
 Virginia Vassilevska Williams, Alek Westover  
 Under submission.
 
-- "The Diamond Test: A Novel Direct Sum / Affinity Test"  
+- ["The Diamond Test: A Novel Direct Sum / Affinity Test"](http://arxiv.org/abs/2409.10464)  
 Alek Westover, Edward Yu, Kai Zheng  
 Under submission.
 
