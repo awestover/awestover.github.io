@@ -38,34 +38,5 @@ William Kuszmaul and Alek Westover
 - [“Cache-Efficient Parallel-Partition Algorithms using Exclusive-Read-and-Write Memory”](https://arxiv.org/abs/2004.12532) (SPAA'20) [(Animation)](https://parallelPartition.surge.sh) [(GitHub)](https://github.com/awestover/Parallel-Partition)  
 William Kuszmaul and Alek Westover  
 
-![Memory Reallocation](images/alloc.svg)  
-![Linear Hashing](images/hashing.png)  
-![Cup Game](images/cupgame.png)  
-![Parallel Partition](images/partition.png)
-
-## Blog
-
-I have a [blog](skyspace) which consists of notes from various math problems that I think about and also some philosophy.  
-Here are some of the best posts:
-
-- [hashing](https://awestover.github.io/skyspace/posts/thoughts/06-24-23.html): Contemplations on what I enjoy about research.
-- [Truth](https://awestover.github.io/skyspace/posts/thoughts/01-21-24.html): Contemplations on the importance of "working out the details carefully" in math.
-- [Girth](https://awestover.github.io/skyspace/posts/cool-algorithms/12-09-23.html): Some notes I took while reading literature on girth for a research project.
-- [Sketching](https://awestover.github.io/skyspace/posts/randomized-algorithms/11-24-23.html): Notes on Sketching Algorithms, presented through dialogue of occasionally recurring characters of the blog.
-- [k-server on a circle](https://awestover.github.io/skyspace/posts/cool-algorithms/07-26-23.html): Attempting to solve a problem I read about in a paper.
-- [simply periodic binary functions](https://awestover.github.io/skyspace/posts/number-theory/05-29-23.html): A neat number-theoretic bijection.
-
-## Tutoring Services
-
-I enjoy helping people understand math and computer science. I offer private tutoring in the following subjects:
-
-- Calculus
-- Programming (python, javascript)
-- Algebra
-- Linear Algebra
-- Computer Science
-- Competition Math
-
-Contact me for more information.  
 [Alek Westover CV (PDF)](cv.pdf)
 
