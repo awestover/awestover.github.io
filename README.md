@@ -1,10 +1,20 @@
 ## Alek Westover
 ![Alek Westover](alek.jpg)
 
-I'm a student and researcher at MIT. 
-I've done research in data structures, online algorithms, and algorithmic graph theory.
+I'm an undergraduate at MIT studying Math+CS.  
+I've done research in data structures, online algorithms, and algorithmic graph theory.  
+Recently, I've been thinking about AI alignment.
 
+[Alek's CV](cv.pdf)  
 Email: alekw at mit dot edu
+
+## Blog
+I keep a blog [here](https://awestover.github.io/thoughts).
+Roughly speaking, my posts fall into the falling categories:
+
+1. Technical notes (Math/TCS/ML/Alignment).
+2. Life Optimization.
+3. Philosophy.
 
 ## Publications
 
@@ -38,5 +48,4 @@ William Kuszmaul and Alek Westover
 - [“Cache-Efficient Parallel-Partition Algorithms using Exclusive-Read-and-Write Memory”](https://arxiv.org/abs/2004.12532) (SPAA'20) [(Animation)](https://parallelPartition.surge.sh) [(GitHub)](https://github.com/awestover/Parallel-Partition)  
 William Kuszmaul and Alek Westover  
 
-[Alek Westover CV (PDF)](cv.pdf)
 
