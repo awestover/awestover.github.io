@@ -20,15 +20,19 @@ Roughly speaking, my posts fall into the falling categories:
 
 - "Listing 6-Cycles in Sparse Graphs"  
 Virginia Vassilevska Williams, Alek Westover  
-Under submission.
+To appear in ITCS'25.
 
 - ["The Diamond Test: A Novel Direct Sum / Affinity Test"](http://arxiv.org/abs/2409.10464)  
 Alek Westover, Edward Yu, Kai Zheng  
-Under submission.
+To appear in ITCS'25.
 
 - ["When to Give Up on a Parallel Implementation"](https://arxiv.org/abs/2408.16092)  
 Nathan S. Sheffield, Alek Westover  
-Under submission.
+To appear in ITCS'25.
+
+- "Interrater Reliability Estimation via Maximum Likelihood for Gwet’s Chance Agreement Model."  
+Westover, Alek M., Tara M. Westover, and M. Brandon Westover.  
+Open Journal of Statistics 14.5 (2024): 481-491.
 
 - [“A Nearly Quadratic Improvement for Memory Reallocation”](https://arxiv.org/abs/2405.12152) (SPAA'24) [(Slides)](images/alloc-presentation.pdf)  
 Martin Farach-Colton, William Kuszmaul, Nathan Sheffield, and Alek Westover  
@@ -47,5 +51,4 @@ William Kuszmaul and Alek Westover
 
 - [“Cache-Efficient Parallel-Partition Algorithms using Exclusive-Read-and-Write Memory”](https://arxiv.org/abs/2004.12532) (SPAA'20) [(Animation)](https://parallelPartition.surge.sh) [(GitHub)](https://github.com/awestover/Parallel-Partition)  
 William Kuszmaul and Alek Westover  
-
 
