@@ -18,7 +18,7 @@ Roughly speaking, my posts fall into the falling categories:
 
 ## Publications
 
-- "Listing 6-Cycles in Sparse Graphs"  
+- ["Listing 6-Cycles in Sparse Graphs"](https://arxiv.org/abs/2411.07499)  
 Virginia Vassilevska Williams, Alek Westover  
 To appear in ITCS'25.
 
