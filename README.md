@@ -3,7 +3,7 @@
 
 I'm an undergraduate at MIT studying Math+CS.  
 I've done research in data structures, online algorithms, and algorithmic graph theory.  
-Recently, I've been thinking about AI alignment.
+Recently, I've been thinking about AI safety.
 
 [Alek's CV](cv.pdf)  
 Email: alekw at mit dot edu
@@ -12,7 +12,7 @@ Email: alekw at mit dot edu
 I keep a blog [here](https://awestover.github.io/thoughts).
 Roughly speaking, my posts fall into the falling categories:
 
-1. Technical notes (Math/TCS/ML/Alignment).
+1. Technical notes (Math/TCS/ML/AI safety).
 2. Life Optimization.
 3. Philosophy.
 
