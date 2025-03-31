@@ -10,7 +10,7 @@ Email: alekw at mit dot edu
 
 ## Blog
 I keep a blog [here](https://awestover.github.io/thoughts).
-Roughly speaking, my posts fall into the following categories:
+My posts fall into the following categories:
 
 1. Technical notes (Math/TCS/ML/AI safety).
 2. Life Optimization.
