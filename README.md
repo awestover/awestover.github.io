@@ -1,18 +1,21 @@
 ## Alek Westover
 ![Alek Westover](alek.jpg)
 
-I'm an undergraduate at MIT studying Math+CS.  
-I've done research in data structures, online algorithms, and algorithmic graph theory.  
-Recently, I've been thinking about AI safety.
+Right now I'm working on AI safety at [ARC](https://www.alignment.org/).  
+I recently graduated from MIT where I studied Math, CS and AI.  
+I've done research in model organisms (trying to find empirical
+evidence for theoretical concerns about AI Misalignment), and
+pure TCS (data structures, online algorithms, and algorithmic
+graph theory).  
 
 [Alek's CV](cv.pdf)  
-Email: alekw at mit dot edu
+Email: alek dot westover at gmail dot com
 
 ## Blog
-I keep a blog [here](https://awestover.github.io/thoughts).
+I store some unpolished thoughts on my blog [here](https://awestover.github.io/thoughts).
 My posts fall into the following categories:
 
-1. Technical notes (Math/TCS/ML/AI safety).
+1. Technical notes (Math/TCS/ML/AI Safety).
 2. Life Optimization.
 3. Philosophy.
 
@@ -20,15 +23,15 @@ My posts fall into the following categories:
 
 - ["Listing 6-Cycles in Sparse Graphs"](https://arxiv.org/abs/2411.07499)  
 Virginia Vassilevska Williams, Alek Westover  
-To appear in ITCS'25.
+ITCS'25.
 
 - ["The Diamond Test: A Novel Direct Sum / Affinity Test"](http://arxiv.org/abs/2409.10464)  
 Alek Westover, Edward Yu, Kai Zheng  
-To appear in ITCS'25.
+ITCS'25.
 
 - ["When to Give Up on a Parallel Implementation"](https://arxiv.org/abs/2408.16092)  
 Nathan S. Sheffield, Alek Westover  
-To appear in ITCS'25.
+ITCS'25.
 
 - "Interrater Reliability Estimation via Maximum Likelihood for Gwet’s Chance Agreement Model."  
 Westover, Alek M., Tara M. Westover, and M. Brandon Westover.  
