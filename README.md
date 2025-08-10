@@ -1,18 +1,16 @@
 ## Alek Westover
 ![Alek Westover](alek.jpg)
 
-Right now I'm working on AI safety at [ARC](https://www.alignment.org/).  
+Right now I'm working on AI safety at [Redwood Research](https://redwoodresearch.substack.com/).  
 I recently graduated from MIT where I studied Math, CS and AI.  
-I've done research in model organisms (trying to find empirical
-evidence for theoretical concerns about AI Misalignment),  
-and pure TCS (data structures, online algorithms, and algorithmic
-graph theory).  
+Before working on AI safety I did theoretical comptuer science research  
+(data structures, online algorithms, and algorithmic graph theory).  
 
 [Alek's CV](cv.pdf)  
 Email: alek dot westover at gmail dot com
 
 ## Blog
-I occasionally put some unpolished thoughts on my blog [here](https://awestover.github.io/thoughts).
+I occasionally put some unpolished thoughts on my blog [here](https://alekw.com).
 My posts fall into the following categories:
 
 1. Technical notes (Math/TCS/ML/AI Safety).
