@@ -7,7 +7,17 @@ Before working on AI safety I did theoretical comptuer science research
 (data structures, online algorithms, and algorithmic graph theory).  
 
 [Alek's CV](cv.pdf)  
+
+## Contact
 Email: alek dot westover at gmail dot com
+
+## Go on a date
+
+I enjoy having close relationships with people, and think that  
+dating is probably a great way to make a close connection with someone.  
+If you're potentially interested in going on a date,  
+or know someone I should maybe go on a date with,  
+please read [this short document](https://docs.google.com/document/d/1Rtnefza06BXaK4INbf2V_6H8rLDPSQ-Hj58g4tx5eA0/edit?tab=t.0#heading=h.warnd42sksz) and then contact me.
 
 ## Blog
 I occasionally put some unpolished thoughts on my blog [here](https://alekw.com).
