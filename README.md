@@ -1,6 +1,8 @@
 ## Alek Westover
 ![Alek Westover](alek.jpg)
 
+<small>*[Thanks to [Alexa](https://alexa-pan.github.io/) for the photo.]*</small>
+
 Right now I'm working on AI safety at [Redwood Research](https://redwoodresearch.substack.com/).  
 I recently graduated from MIT where I studied Math, CS and AI.  
 Before working on AI safety I did theoretical comptuer science research  
