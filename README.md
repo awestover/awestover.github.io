@@ -4,8 +4,7 @@
 <small>*[Thanks to [Alexa](https://alexa-pan.github.io/) for the photo.]*</small>
 
 Right now I'm working on AI safety at [Redwood Research](https://redwoodresearch.substack.com/).  
-I recently graduated from MIT where I studied Math, CS and AI.  
-Before working on AI safety I did theoretical comptuer science research  
+Before joining Redwood I did theoretical comptuer science research at MIT  
 (data structures, online algorithms, and algorithmic graph theory).  
 
 [Alek's CV](cv.pdf)  
@@ -14,12 +13,8 @@ Before working on AI safety I did theoretical comptuer science research
 Email: alek dot westover at gmail dot com
 
 ## Blog
-I occasionally put some unpolished thoughts on my blog [here](https://alekw.com).
-My posts fall into the following categories:
-
-1. Technical notes (Math/TCS/ML/AI Safety).
-2. Life Optimization.
-3. Philosophy.
+I occasionally put unpolished thoughts about life (and sometimes math) on my blog [here](https://alekw.com).  
+I write about AI safety [here](https://www.lesswrong.com/users/alek-westover).  
 
 ## Publications
 
