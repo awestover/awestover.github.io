@@ -4,7 +4,7 @@
 <small>*[Thanks to [Alexa](https://alexa-pan.github.io/) for the photo.]*</small>
 
 Right now I'm working on AI safety at [Redwood Research](https://redwoodresearch.substack.com/).  
-Before joining Redwood I did theoretical comptuer science research at MIT  
+Before joining Redwood I did theoretical computer science research at MIT  
 (data structures, online algorithms, and algorithmic graph theory).  
 
 [Alek's CV](cv.pdf)  
