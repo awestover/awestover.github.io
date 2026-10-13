@@ -25,6 +25,11 @@ html_template = f"""
 <main>
     {html_content}
 </main>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="link_previews.js"></script>
+<script src="preview.js"></script>
 </body>
 </html>
 """

@@ -39,3 +39,57 @@ img[src="alek.jpg"] {
 #alek {
     width: 300px;
 }
+
+#lw-posts li {
+    margin-bottom: 10px;
+}
+#lw-pager {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#lw-pager button {
+    font-size: 18px;
+    padding: 6px 14px;
+    border: 2px solid #007777;
+    border-radius: 6px;
+    background-color: white;
+    color: #007777;
+    font-weight: bold;
+    cursor: pointer;
+}
+#lw-pager button:hover:not(:disabled) {
+    background-color: #00ffff;
+    color: black;
+}
+#lw-pager button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+#link-preview {
+    position: fixed;
+    z-index: 1000;
+    width: 520px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 14px 18px;
+    background-color: white;
+    border: 2px solid #007777;
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    line-height: 1.45;
+}
+#link-preview .preview-title {
+    font-weight: bold;
+    font-size: 17px;
+    color: #007777;
+}
+#link-preview .preview-authors {
+    margin-top: 4px;
+    font-style: italic;
+}
+#link-preview p {
+    margin: 10px 0 0;
+}
